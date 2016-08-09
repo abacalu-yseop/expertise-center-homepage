@@ -8,6 +8,22 @@
 
 /* Reset */
 
+/* added part for quotes */
+#quoteContainer{
+	width:75%;
+	background: #fff;
+	padding:10px;
+	margin:30px auto;
+	text-align: center;
+  height:70px;
+}
+
+#quoteGenius{
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
+
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -1086,11 +1102,12 @@
 	}
 
 	h1 {
-		text-transform: lowercase;
+		font-size: 2.8em;
+		text-align: center;
+
 	}
 
 	h2 {
-		text-transform: lowercase;
 		font-size: 1.6em;
 		letter-spacing: -1px;
 		margin-bottom: 1em;
@@ -1195,7 +1212,6 @@
 		padding: 15px 25px 15px 25px;
 		background-color: #007b9d;
 		border-radius: 10px;
-		text-transform: lowercase;
 		text-decoration: none;
 		color: #fff;
 		font-size: 1.2em;
@@ -1306,7 +1322,6 @@
 					right: 40px;
 					top: 1px;
 					line-height: 84px;
-					text-transform: lowercase;
 					font-size: 1.3em;
 					letter-spacing: -1px;
 				}
@@ -1349,14 +1364,13 @@
 				-webkit-box-sizing: content-box;
 				-ms-box-sizing: content-box;
 				box-sizing: content-box;
-				position: relative;
 				width: 1160px;
-				height: 265px;
+				height: 120px;
 				box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
 				border-radius: 10px;
 				padding: 20px;
 				background: #fff url(images/banner.jpg) no-repeat 20px 20px;
-				background-size: 1160px 265px;
+				background-size: 1160px 120px;
 			}
 
 				#banner h2 {
@@ -1382,7 +1396,6 @@
 					color: #fff;
 					text-align: center;
 					letter-spacing: -1px;
-					text-transform: lowercase;
 					opacity: 0.8;
 				}
 
@@ -1442,7 +1455,7 @@
 			}
 
 				#header h1 {
-					font-size: 2em;
+					font-size: 4em;
 					line-height: 76px;
 				}
 
@@ -1608,7 +1621,6 @@
 					color: #fff;
 					text-align: center;
 					letter-spacing: -1px;
-					text-transform: lowercase;
 					opacity: 0.8;
 				}
 
